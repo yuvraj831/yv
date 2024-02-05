@@ -1,0 +1,138 @@
+*{
+margin:0px;
+padding: 0px;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 100vh;background-color: #eff4fd;
+}
+nav{
+    display:flex;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 20px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 50px;
+}
+nav ul li a:hover{
+    color:blue;
+}
+.detel{
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+.detel h1{
+    font-size: 50px;
+    color:#212121;
+    margin-bottom: 20px;
+}
+span{
+    color:orange;
+}
+.detel p{
+color:#555;
+line-height: 22px;
+}
+.detel a{
+    background-color:#212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+.imges{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.imges img{
+    height: 106%;
+    position: absolute;
+    left: 70%;
+    bottom: 0;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+//.imges:hover .shape{
+    left: 5px;
+}
+.intro{
+    font-size: 60px;
+   margin-left: 50px;
+   font-weight: bold;
+}
+.detel a:hover{
+    background-color: green;
+    color: black;
+}
+.web{   
+    font-size: 40px;
+    margin-left: 274px;
+    margin-top: 310px;
+    color: blue;
+}
+.web:hover{
+    //bottom:5px;
+    color: black;
+}
+.detel1{
+    margin-left: 36%;
+    margin-top: -30%;
+}
+.detel1 a{
+    background-color:#212121;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 40px 0;
+    border-radius: 10px;
+    margin-left: 160px; 
+    text-align:center;
+    justify-content:center;
+}
+.detel1 a:hover{
+    background-color: rgb(9, 255, 0);
+    color: black;
+}
+li ul{
+   // display: none;
+    list-style-type: none;
+    font-size: 20px;
+}
+ul li:hover ul{
+    display: block;
+}
+.detel1 li {
+   list-style-type: none;
+}
+.detel1 span{
+    font-size: 40px;
+}b
+.detel1 li{
+    font-size: 20px;
+}
+.detel p{
+    font-size: 20px;
+    
+}
+
